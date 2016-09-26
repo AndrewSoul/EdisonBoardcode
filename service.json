@@ -1,0 +1,19 @@
+{
+  "name": "ÎÂÊª¶È",
+  "in": {
+    "ports": [
+      {
+        "name": "trigger"
+      }
+    ]
+  },
+  "out": {
+    "ports": [
+      {
+        "name": "temp",
+        "type": "number"
+      }
+    ]
+  },
+  "config": []
+}
