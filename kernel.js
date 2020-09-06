@@ -29,8 +29,8 @@ shared.i2c.writeByte(0);
 var value ;
 var temp;
 
-    value= shared.i2c.read(5);
-    sendOUT({value:value});
-    temp=value[2]+value[3]/10;
-    sendOUT({temp:temp})
+value= shared.i2c.read(5);
+sendOUT({value:value});
+temp=value[2]+value[3]/10;
+sendOUT({temp:temp})
 
